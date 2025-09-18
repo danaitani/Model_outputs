@@ -27,7 +27,7 @@ M2	Resistance	Resistance ~ Year + Specimen_type + Hospital * Ward_ED_ICU	Primary
 M2′	MDR	MDR ~ Year + Specimen_type + Hospital * Ward_ED_ICU	MDR interaction analogue.
 M3	Resistance	M2 + Gender	Sensitivity: adds Gender (ref: Male).
 M3′	MDR	M2′ + Gender	MDR analogue.
-M4	Resistance	M2 + Age(7-level)	Sensitivity: adds Age (ref: 30–<52 y); exploratory due to <1 y missingness.
+M4	Resistance	M2 + Age(7-level)	Sensitivity: adds Age (ref: 30–<52 y); exploratory due to missingness.
 M4′	MDR	M2′ + Age(7-level)	MDR analogue.
 
 Note: We also report for pathogen-antibiotics (Resistance ~ Year + Specimen_type + Hospital)(Resistance ~ Year + Specimen_type + Hospital + Ward)
