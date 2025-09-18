@@ -1,5 +1,5 @@
 # Model_outputs
-# TARSS model outputs
+# TARSS model outputs for _K. pneumoniae, E. coli, P. aeruginosa, Acinetobacter spp._
 
 This repo contains the analysis for pathogen–antibiotic resistance and MDR using multivariable logistic regression in R.
 
