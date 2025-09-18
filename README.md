@@ -21,16 +21,16 @@ Ward categories were collapsed (ICU, ED, Other) based on counts; see the collaps
 **Model set (additive → interaction → +demographics)** 
 
 Model	Outcome	Formula (schematic)	Description / notes
-M1	Resistance	Resistance ~ Year + Specimen_type + Hospital + Ward_ED_ICU	Additive main effects (collapsed ward: ICU / ED / Other).
-M1′	MDR	MDR ~ Year + Specimen_type + Hospital + Ward_ED_ICU	Additive MDR analogue.
-M2	Resistance	Resistance ~ Year + Specimen_type + Hospital * Ward_ED_ICU	Primary interaction model (hospital×ward).
-M2′	MDR	MDR ~ Year + Specimen_type + Hospital * Ward_ED_ICU	MDR interaction analogue.
-M3	Resistance	M2 + Gender	Sensitivity: adds Gender (ref: Male).
-M3′	MDR	M2′ + Gender	MDR analogue.
-M4	Resistance	M2 + Age(7-level)	Sensitivity: adds Age (ref: 30–<52 y); exploratory due to missingness.
-M4′	MDR	M2′ + Age(7-level)	MDR analogue.
+Resistance	Resistance ~ Year + Specimen_type + Hospital + Ward_ED_ICU	Additive main effects (collapsed ward: ICU / ED / Other).
+MDR	MDR ~ Year + Specimen_type + Hospital + Ward_ED_ICU	Additive MDR analogue.
+Resistance	Resistance ~ Year + Specimen_type + Hospital * Ward_ED_ICU	**Primary interaction model (hospital×ward).**
+MDR	MDR ~ Year + Specimen_type + Hospital * Ward_ED_ICU	**Primary interaction model (hospital×ward)***
+Resistance	Interaction + Gender	Sensitivity: adds Gender (ref: Male).
+MDR	Interaction + Gender	MDR analogue.
+Resistance	Interaction + Age(7-level)	Sensitivity: adds Age (ref: 30–<52 y); exploratory due to missingness.
+MDR	Interaction + Age(7-level)	MDR analogue.
 
-Note: We also report for pathogen-antibiotics (Resistance ~ Year + Specimen_type + Hospital)(Resistance ~ Year + Specimen_type + Hospital + Ward)
+Note: We also report for the pathogen-antibiotics (Resistance ~ Year + Specimen_type + Hospital & Resistance ~ Year + Specimen_type + Hospital + Ward)
 
 **Model selection & diagnostics**
 
