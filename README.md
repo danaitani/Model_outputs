@@ -1,7 +1,7 @@
 # Model_outputs
 # TARSS model outputs
 
-This repository contains code and **model outputs** (tables/figures) for our analyses (2014–2022), including MDR.
+This repository contains code and **model outputs** (tables) for the analyses of KPN, ECOL, PSA, ACN (2014–2022), including MDR.
 
 ## Contents
 - `code/`: R scripts to reproduce summaries/plots.
