@@ -6,9 +6,6 @@ This repository contains code and **model outputs** (tables/figures) for our ana
 ## Contents
 - `code/`: R scripts to reproduce summaries/plots.
 - `results/tables`: Excel exports of model summaries and comparators.
-- `results/figures`: Publication-ready figures (PNG/SVG).
-- `docs/`: Optional HTML reports.
-- `data/`: No raw data committed (sensitive). See `data/README.md`.
 
 ## Reproducibility
 - R ≥ 4.2, packages: `tidyverse`, `broom`, `janitor`, `readxl`, `writexl`, `ggplot2`, `car`, `emmeans`.
