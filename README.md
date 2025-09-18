@@ -30,6 +30,8 @@ M3′	MDR	M2′ + Gender	MDR analogue.
 M4	Resistance	M2 + Age(7-level)	Sensitivity: adds Age (ref: 30–<52 y); exploratory due to <1 y missingness.
 M4′	MDR	M2′ + Age(7-level)	MDR analogue.
 
+Note: We also report for pathogen-antibiotics (Resistance ~ Year + Specimen_type + Hospital)(Resistance ~ Year + Specimen_type + Hospital + Ward)
+
 **Model selection & diagnostics**
 
 Nested comparisons (e.g., M1 vs M2; M2 vs M3/M4): Likelihood-ratio tests (LRT) on the same rows; ΔAIC > 2 considered meaningful.
