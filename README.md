@@ -45,6 +45,6 @@ We evaluated Gender and Age (7-level) on top of the interaction model (M2/M2′)
 
 **Reproducibility**
 
-R (≥ 4.x); key packages: dplyr, tidyr, broom, car, pROC, writexl, forcats, AMR.
+RStudio; key packages: dplyr, tidyr, broom, car, pROC, writexl, forcats, AMR.
 ORs and CIs exported via broom::tidy() (Wald CIs).
 Outputs (ORs, global p-values, AIC/AUC, VIF, comparators) are written to /results/... as .xlsx.
