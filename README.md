@@ -23,6 +23,6 @@ Model_outputs/
 
 ## Reproducibility
 - R ≥ 4.2, packages: `tidyverse`, `broom`, `janitor`, `readxl`, `writexl`, `ggplot2`, `car`, `emmeans`.
-- 
+  
 ## Licensing
 - Code: MIT. Outputs: CC BY 4.0.
