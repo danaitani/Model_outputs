@@ -39,9 +39,6 @@ Discrimination: AUC (excellent > 0.90; acceptable 0.80–0.90; fair 0.70–0.80;
 Collinearity: VIF (car), flag if VIF > 5.
 CIs: Wald 95% CIs (robust when profile CIs fail under separation).
 
-**Sensitivity analysis**
-
-We evaluated Gender and Age (7-level) on top of the interaction model (M2/M2′). Only covariates that improved fit (LRT p < 0.05 and/or ΔAIC > 2) were retained. 
 
 **Reproducibility**
 
