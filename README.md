@@ -45,3 +45,9 @@ CIs: Wald 95% CIs (robust when profile CIs fail under separation).
 RStudio; key packages: dplyr, tidyr, broom, car, pROC, writexl, forcats, AMR.
 ORs and CIs exported via broom::tidy() (Wald CIs).
 Outputs (ORs, global p-values, AIC/AUC, VIF, comparators) are written to /results/... as .xlsx.
+
+## Citation
+
+If you use these data or code, please cite the associated manuscript:
+
+Itani D, Philips LT, Tolba SK, Achour W, Smaoui H, Thabet L, et al. A Nine-Year Analysis of WHO Critical Priority Pathogens from the Tunisian AMR Surveillance System [Internet]. medRxiv; 2026 [cited 2026 Mar 27]. p. 2026.03.23.26349077. Available from: https://www.medrxiv.org/content/10.64898/2026.03.23.26349077v1 doi:10.64898/2026.03.23.26349077
